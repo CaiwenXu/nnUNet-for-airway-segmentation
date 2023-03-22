@@ -1,0 +1,62 @@
+[
+    {
+        "train": [
+            "Airway_CASE01",
+            "Airway_CASE03",
+            "Airway_CASE04",
+            "Airway_CASE06"
+        ],
+        "val": [
+            "Airway_CASE05",
+            "Airway_CASE07"
+        ]
+    },
+    {
+        "train": [
+            "Airway_CASE01",
+            "Airway_CASE03",
+            "Airway_CASE04",
+            "Airway_CASE05",
+            "Airway_CASE07"
+        ],
+        "val": [
+            "Airway_CASE06"
+        ]
+    },
+    {
+        "train": [
+            "Airway_CASE03",
+            "Airway_CASE04",
+            "Airway_CASE05",
+            "Airway_CASE06",
+            "Airway_CASE07"
+        ],
+        "val": [
+            "Airway_CASE01"
+        ]
+    },
+    {
+        "train": [
+            "Airway_CASE01",
+            "Airway_CASE04",
+            "Airway_CASE05",
+            "Airway_CASE06",
+            "Airway_CASE07"
+        ],
+        "val": [
+            "Airway_CASE03"
+        ]
+    },
+    {
+        "train": [
+            "Airway_CASE01",
+            "Airway_CASE03",
+            "Airway_CASE05",
+            "Airway_CASE06",
+            "Airway_CASE07"
+        ],
+        "val": [
+            "Airway_CASE04"
+        ]
+    }
+]

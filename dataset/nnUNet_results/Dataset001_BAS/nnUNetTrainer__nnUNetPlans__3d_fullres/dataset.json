@@ -1,0 +1,52 @@
+{
+    "description": "Airway Segmentation",
+    "labels": {
+        "background": 0,
+        "Airway": 1
+    },
+    "licence": "see challenge website",
+    "channel_names": {
+        "0": "CT"
+    },
+    "name": "BAS",
+    "numTest": 3,
+    "numTraining": 6,
+    "reference": null,
+    "release": "0.0",
+    "tensorImageSize": "3D",
+    "file_ending": ".nii.gz",
+    "regions_class_order": "None",
+    "test": [
+        "./imagesTs/Airway_0292",
+        "./imagesTs/Airway_0328",
+        "./imagesTs/Airway_0371"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/Airway_CASE01",
+            "label": "./labelsTr/Airway_CASE01"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE03",
+            "label": "./labelsTr/Airway_CASE03"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE04",
+            "label": "./labelsTr/Airway_CASE04"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/Airway_CASE05",
+            "label": "./labelsTr/Airway_CASE05"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE06",
+            "label": "./labelsTr/Airway_CASE06"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE07",
+            "label": "./labelsTr/Airway_CASE07"
+        }
+    ]
+}

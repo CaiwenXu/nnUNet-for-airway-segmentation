@@ -1,0 +1,330 @@
+{
+    "description": "Airway Segmentation",
+    "labels": {
+        "00": "background",
+        "01": "Airway"
+    },
+    "licence": "see challenge website",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "BAS",
+    "numTest": 18,
+    "numTraining": 72,
+    "reference": null,
+    "release": "0.0",
+    "tensorImageSize": "3D",
+    "file_ending": ".nii.gz",
+    "test": [
+        "./imagesTs/Airway_0292",
+        "./imagesTs/Airway_0328",
+        "./imagesTs/Airway_0371",
+        "./imagesTs/Airway_0403",
+        "./imagesTs/Airway_0430",
+        "./imagesTs/Airway_0488",
+        "./imagesTs/Airway_0657",
+        "./imagesTs/Airway_0696",
+        "./imagesTs/Airway_0710",
+        "./imagesTs/Airway_0728",
+        "./imagesTs/Airway_0757",
+        "./imagesTs/Airway_0806",
+        "./imagesTs/Airway_0819",
+        "./imagesTs/Airway_0909",
+        "./imagesTs/Airway_0981",
+        "./imagesTs/Airway_CASE02",
+        "./imagesTs/Airway_CASE14",
+        "./imagesTs/Airway_CASE17"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/Airway_CASE01",
+            "label": "./labelsTr/Airway_CASE01"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE19",
+            "label": "./labelsTr/Airway_CASE19"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE09",
+            "label": "./labelsTr/Airway_CASE09"
+        },
+        {
+            "image": "./imagesTr/Airway_0857",
+            "label": "./labelsTr/Airway_0857"
+        },
+        {
+            "image": "./imagesTr/Airway_0376",
+            "label": "./labelsTr/Airway_0376"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE12",
+            "label": "./labelsTr/Airway_CASE12"
+        },
+        {
+            "image": "./imagesTr/Airway_0943",
+            "label": "./labelsTr/Airway_0943"
+        },
+        {
+            "image": "./imagesTr/Airway_0299",
+            "label": "./labelsTr/Airway_0299"
+        },
+        {
+            "image": "./imagesTr/Airway_0837",
+            "label": "./labelsTr/Airway_0837"
+        },
+        {
+            "image": "./imagesTr/Airway_0443",
+            "label": "./labelsTr/Airway_0443"
+        },
+        {
+            "image": "./imagesTr/Airway_0367",
+            "label": "./labelsTr/Airway_0367"
+        },
+        {
+            "image": "./imagesTr/Airway_1004",
+            "label": "./labelsTr/Airway_1004"
+        },
+        {
+            "image": "./imagesTr/Airway_0876",
+            "label": "./labelsTr/Airway_0876"
+        },
+        {
+            "image": "./imagesTr/Airway_0441",
+            "label": "./labelsTr/Airway_0441"
+        },
+        {
+            "image": "./imagesTr/Airway_0849",
+            "label": "./labelsTr/Airway_0849"
+        },
+        {
+            "image": "./imagesTr/Airway_0920",
+            "label": "./labelsTr/Airway_0920"
+        },
+        {
+            "image": "./imagesTr/Airway_1001",
+            "label": "./labelsTr/Airway_1001"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE04",
+            "label": "./labelsTr/Airway_CASE04"
+        },
+        {
+            "image": "./imagesTr/Airway_0727",
+            "label": "./labelsTr/Airway_0727"
+        },
+        {
+            "image": "./imagesTr/Airway_0479",
+            "label": "./labelsTr/Airway_0479"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE18",
+            "label": "./labelsTr/Airway_CASE18"
+        },
+        {
+            "image": "./imagesTr/Airway_0606",
+            "label": "./labelsTr/Airway_0606"
+        },
+        {
+            "image": "./imagesTr/Airway_0684",
+            "label": "./labelsTr/Airway_0684"
+        },
+        {
+            "image": "./imagesTr/Airway_0982",
+            "label": "./labelsTr/Airway_0982"
+        },
+        {
+            "image": "./imagesTr/Airway_0778",
+            "label": "./labelsTr/Airway_0778"
+        },
+        {
+            "image": "./imagesTr/Airway_0536",
+            "label": "./labelsTr/Airway_0536"
+        },
+        {
+            "image": "./imagesTr/Airway_0066",
+            "label": "./labelsTr/Airway_0066"
+        },
+        {
+            "image": "./imagesTr/Airway_0490",
+            "label": "./labelsTr/Airway_0490"
+        },
+        {
+            "image": "./imagesTr/Airway_0384",
+            "label": "./labelsTr/Airway_0384"
+        },
+        {
+            "image": "./imagesTr/Airway_0491",
+            "label": "./labelsTr/Airway_0491"
+        },
+        {
+            "image": "./imagesTr/Airway_0609",
+            "label": "./labelsTr/Airway_0609"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE13",
+            "label": "./labelsTr/Airway_CASE13"
+        },
+        {
+            "image": "./imagesTr/Airway_0429",
+            "label": "./labelsTr/Airway_0429"
+        },
+        {
+            "image": "./imagesTr/Airway_0460",
+            "label": "./labelsTr/Airway_0460"
+        },
+        {
+            "image": "./imagesTr/Airway_0667",
+            "label": "./labelsTr/Airway_0667"
+        },
+        {
+            "image": "./imagesTr/Airway_0810",
+            "label": "./labelsTr/Airway_0810"
+        },
+        {
+            "image": "./imagesTr/Airway_0529",
+            "label": "./labelsTr/Airway_0529"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE07",
+            "label": "./labelsTr/Airway_CASE07"
+        },
+        {
+            "image": "./imagesTr/Airway_0895",
+            "label": "./labelsTr/Airway_0895"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE10",
+            "label": "./labelsTr/Airway_CASE10"
+        },
+        {
+            "image": "./imagesTr/Airway_0831",
+            "label": "./labelsTr/Airway_0831"
+        },
+        {
+            "image": "./imagesTr/Airway_0813",
+            "label": "./labelsTr/Airway_0813"
+        },
+        {
+            "image": "./imagesTr/Airway_0140",
+            "label": "./labelsTr/Airway_0140"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE05",
+            "label": "./labelsTr/Airway_CASE05"
+        },
+        {
+            "image": "./imagesTr/Airway_0448",
+            "label": "./labelsTr/Airway_0448"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE08",
+            "label": "./labelsTr/Airway_CASE08"
+        },
+        {
+            "image": "./imagesTr/Airway_0663",
+            "label": "./labelsTr/Airway_0663"
+        },
+        {
+            "image": "./imagesTr/Airway_0406",
+            "label": "./labelsTr/Airway_0406"
+        },
+        {
+            "image": "./imagesTr/Airway_0651",
+            "label": "./labelsTr/Airway_0651"
+        },
+        {
+            "image": "./imagesTr/Airway_0784",
+            "label": "./labelsTr/Airway_0784"
+        },
+        {
+            "image": "./imagesTr/Airway_0621",
+            "label": "./labelsTr/Airway_0621"
+        },
+        {
+            "image": "./imagesTr/Airway_0438",
+            "label": "./labelsTr/Airway_0438"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE16",
+            "label": "./labelsTr/Airway_CASE16"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE15",
+            "label": "./labelsTr/Airway_CASE15"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE11",
+            "label": "./labelsTr/Airway_CASE11"
+        },
+        {
+            "image": "./imagesTr/Airway_0897",
+            "label": "./labelsTr/Airway_0897"
+        },
+        {
+            "image": "./imagesTr/Airway_0874",
+            "label": "./labelsTr/Airway_0874"
+        }
+    ],
+    "validation": [
+        {
+            "image": "./imagesTr/Airway_0672",
+            "label": "./labelsTr/Airway_0672"
+        },
+        {
+            "image": "./imagesTr/Airway_0673",
+            "label": "./labelsTr/Airway_0673"
+        },
+        {
+            "image": "./imagesTr/Airway_0900",
+            "label": "./labelsTr/Airway_0900"
+        },
+        {
+            "image": "./imagesTr/Airway_0648",
+            "label": "./labelsTr/Airway_0648"
+        },
+        {
+            "image": "./imagesTr/Airway_0698",
+            "label": "./labelsTr/Airway_0698"
+        },
+        {
+            "image": "./imagesTr/Airway_0963",
+            "label": "./labelsTr/Airway_0963"
+        },
+        {
+            "image": "./imagesTr/Airway_0411",
+            "label": "./labelsTr/Airway_0411"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE06",
+            "label": "./labelsTr/Airway_CASE06"
+        },
+        {
+            "image": "./imagesTr/Airway_0756",
+            "label": "./labelsTr/Airway_0756"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE20",
+            "label": "./labelsTr/Airway_CASE20"
+        },
+        {
+            "image": "./imagesTr/Airway_CASE03",
+            "label": "./labelsTr/Airway_CASE03"
+        },
+        {
+            "image": "./imagesTr/Airway_0676",
+            "label": "./labelsTr/Airway_0676"
+        },
+        {
+            "image": "./imagesTr/Airway_0722",
+            "label": "./labelsTr/Airway_0722"
+        },
+        {
+            "image": "./imagesTr/Airway_0856",
+            "label": "./labelsTr/Airway_0856"
+        },
+        {
+            "image": "./imagesTr/Airway_0744",
+            "label": "./labelsTr/Airway_0744"
+        }
+    ]
+}
